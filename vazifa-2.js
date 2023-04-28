@@ -1,4 +1,6 @@
-let a = 10;
+let a = 16;
 let b = 5;
 
-console.log("A kesmaga B  kesmadan" + " " + (a / b) + " ta" + " " + "joylashtirish mumkin!")
+let c = Math.floor(a / b);
+
+console.log("A kesmaga B  kesmadan" + " " + c + " ta" + " " + "joylashtirish mumkin!")
