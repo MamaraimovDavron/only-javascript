@@ -5,4 +5,6 @@ let r2 = Math.floor((raqam % 1000) / 100);
 let r3 = Math.floor((raqam % 100) / 10);
 let r4 = Math.floor(raqam % 10);
 
-console.log("Berilgan son " + raqam + " edi.Va " + r4 + r3 + r2 + r1 + " ga o`zgardi!");
+let res = r1 + r2 + r3 + r4;
+
+console.log("Berilgan sonning " + raqam + " raqamlari yig`indisi " + res + " ga teng!");
